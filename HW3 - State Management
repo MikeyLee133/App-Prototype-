@@ -1,0 +1,12 @@
+Some of the states that can exist on the IOS platform can consist of the following
+1. Not Running
+2. Inactive
+3. Active
+4. Background
+5. Suspended 
+
+For my App I think I need to consider the following:
+1. Active: The app is active and the user can/will modify activities in the app. I think that every app will have to consider this state because this is when the user is using the app.
+2. Suspended: I think that if you receive a phone call or an action happens that just so happens to suspend the app, the state at which you suspended the app should stay the same.
+3. Background/inactive: If I can get push notifications implemented in my app I think that the app will still have to be able persist even when not active to send the 
+push notification to the user. 
